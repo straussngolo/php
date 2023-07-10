@@ -20,9 +20,6 @@ if('$number1' + '$number2' + '$number3' == 'result';){
 
 <?php
 
-
-
-;?>
     
 </body>
 </html>

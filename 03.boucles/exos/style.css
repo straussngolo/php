@@ -1,0 +1,17 @@
+h2{
+
+   justify-content: center;
+   font-weight: 5px;
+
+   }
+
+
+.flex{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    font-size: larger;
+
+}
+
