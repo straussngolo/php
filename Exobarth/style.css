@@ -1,0 +1,21 @@
+
+
+.square{
+    width: 1000;
+    height: 500;
+    background-color: rgb(14, 3, 77);
+    align-self: center;
+    border-style: solid;
+    border-color: brown;
+}
+
+.bouger{
+    justify-content: flex-end;
+}
+
+
+.coul{
+    color: rgb(255, 255, 255);
+    margin-inline: 10px;
+    margin-bottom: -45px;
+}

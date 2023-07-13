@@ -1,0 +1,42 @@
+/* Définition de la couleur bleu pétrole */
+.bg-body-tertiary {
+    background-color: #5498a9;
+  }
+  
+  /* Style de la navbar */
+  .navbar {
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .btn-outline-success {
+    color: #5498a9;
+    border-color: #5498a9;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #5498a9;
+    color: #fff;
+  }
+  

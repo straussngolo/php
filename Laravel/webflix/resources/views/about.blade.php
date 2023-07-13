@@ -1,25 +1,12 @@
-@extends('layouts/app')
+@extends('layouts.app')
 
 @section('content')
-
-<h1>A propos de Webflix de {{$name}}</h1>
-
-<ul>
-
-    @foreach ($team as $member)
-
-    <li>
-     
-        <a href="/a-propos/{{$member['name']}}"></a>
-
-    </li>
-    <li>
-
-    {{$member['name']}}
-
-    </li>
-        
-    @endforeach
-</ul>
-    
+    <h1>A propos de {{ $name }}</h1>
+    <ul>
+        @foreach ($team as $member)
+            <li>
+                <a href="/a-propos/{{ $member['name'] }}">{{ $member['name'] }}</a>
+            </li>
+        @endforeach
+    </ul>
 @endsection
